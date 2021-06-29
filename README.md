@@ -1,7 +1,7 @@
 # Formulario_HTML
 Criação de um formulário utilizando HTML e CSS.
 
-_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*
+_*_*_*_*_*_*_*_*_*_*_*_*_*_*_*_
 
 ✨ COMO EXECUTAR ESTE PROJETO: ✨
 
