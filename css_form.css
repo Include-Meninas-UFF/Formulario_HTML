@@ -1,0 +1,86 @@
+/* Todos os elementos da página */
+* {
+    margin: 0;
+    padding: 5px;
+}
+
+/* Elementos com o ID "titulo" */
+#titulo {
+    font-family: fantasy;
+    color: #B4045F;
+    margin-left: -6%;
+} 
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+    font-family: monospace;
+    color: #94115D;
+    margin-left: 10%;
+} 
+
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+    border: 0;
+}
+
+/* Elemento de tag <body> */
+body{
+    background-color: #FAE4F1;
+    font-family: monospace;
+    font-size: 1em;
+    color: #B4045F;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+
+/* Elementos de tags <input>, <Select>, <textarea> e <button> */
+input, select, textarea, button {
+    font-family: monospace;
+    font-size: 1em;
+    color: #B09BA7;
+    vertical-align: middle;
+}
+
+/* Elementos de classe "campotexto" */
+.campotexto {
+    margin-bottom: 1em;
+    padding: 0.2em;
+}
+
+/* Elementos de classe "campotexto" de tag <label> */
+.campotexto label {
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+}
+
+/* Elemento de classe "botao" */
+.botao {
+    font-size: 1.2em;
+    background: #B4045F;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-left: -6%;
+}
+
+/* Elementos com o ID "msg" */
+#msg {
+    margin-top: 1em;
+    margin-left: 6%;
+}
+
+/* Elementos com o ID "imagem" */
+#imagem{
+    width: 160px;
+    height: 80px;
+    padding-top: 1em;
+    margin-left: 16%;
+}
+}
