@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+    <head>
+        <!-- Metadados -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css_form.css" media="screen">
+
+        
+        <!-- Título da página (aparece na aba) -->
+        <title>FORM01</title>
+    </head>
+
+    <body>  
+
+        <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <!-- a tag <marquee> faz com que o subtítulo se movimente -->
+        <div>
+            <h1 id="titulo"></i>MEU PRIMEIRO FORMULÁRIO</i></h1>
+            <marquee width="300" scrollamount="300" scrolldelay="10000"> 
+                <p id="subtitulo"> HEYYYY... SEU PRIMEIRO PROJETINHO NO MUNDO DA COMPUTAÇÃO</p>
+            </marquee>
+            <br>
+        </div>
+
+        <!-- Início do formulário -->
+        <form>
+
+            <fieldset class="grupo">
+                <!-- Campo para preenchimento do nome com legenda "nome" e css de classe campotexto" -->
+                <!-- required vai tornar este campo obrigatório! Caso ele n seja preenchido e o botão Enviar seja apertado irá receber uma notificação que este campo deve ser preenchido -->
+                <div class= campotexto">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo para preenchimento do sobrenome com legenda "sobrenome" e css de classe campotexto" -->
+                <div class= campotexto">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset> 
+
+            <!-- Campo para preenchimento do email -->
+            <div class= campotexto">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <!-- Campo de seleção de cursos com 3 opções de botões selecionáveis (radio button) -->
+            <div class= campotexto">
+                <label><strong>Qual o seu curso?</strong></label>
+                <label>
+                    <input type="radio" name="curso" value="cc">Ciência da Computação    
+                </label>
+                <label>
+                    <input type="radio" name="curso" value="si">Sistemas de Informação
+                </label>
+                <label>
+                    <input type="radio" name="curso" value="tsc">Tecnologia de Sistemas de Computação
+                </label>
+            </div>
+
+            <!-- Caixa de texto -->
+            <div class= campotexto">
+                <br>
+                <label for="mensagem"><strong>Gostou de aprender um pouquinho de HTML e CSS? </strong></label>
+                <br>
+                <textarea rows="6" style="width: 26em" id="msg" name="Opinião/Sugestões"></textarea>
+            </div>
+
+            <!-- Imagem com logo do Include Meninas UFF -->
+            <img id="imagem" src="logo.png">
+
+            <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit" onsubmit="">Enviar</button>            
+
+        </form>
+
+    </body>
+
+
+
+</html>
